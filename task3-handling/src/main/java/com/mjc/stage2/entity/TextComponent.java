@@ -19,7 +19,7 @@ public class TextComponent extends AbstractTextComponent {
         for (AbstractTextComponent component : componentList) {
             sb.append(component.operation());
         }
-        return sb.toString();
+        return sb.append(" ").toString();
     }
 
     @Override
